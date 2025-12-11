@@ -1,13 +1,10 @@
-import { createTheme, extendTheme } from '@mui/material';
-import { purple, teal } from '@mui/material/colors';
+import { createTheme } from '@mui/material';
 
 import { defaultTheme } from '.';
 
-export const lightTheme = extendTheme(
-  defaultTheme,
-  createTheme({
-    palette: {
-      mode: 'light',
-    },
-  })
-);
+export const lightTheme = createTheme({
+  ...defaultTheme,
+  palette: {
+    mode: 'light',
+  },
+});

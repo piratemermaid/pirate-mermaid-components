@@ -1,12 +1,10 @@
-import { createTheme, extendTheme } from '@mui/material';
+import { createTheme } from '@mui/material';
 
 import { defaultTheme } from '.';
 
-export const darkTheme = extendTheme(
-  defaultTheme,
-  createTheme({
-    palette: {
-      mode: 'dark',
-    },
-  })
-);
+export const darkTheme = createTheme({
+  ...defaultTheme,
+  palette: {
+    mode: 'dark',
+  },
+});
