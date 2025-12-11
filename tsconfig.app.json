@@ -10,7 +10,9 @@
     "baseUrl": ".",
     "paths": {
       "@": ["src/*"],
-      "@stories/*": ["./src/stories/*"]
+      "@components": ["./src/components/index.ts"],
+      "@stories/*": ["./src/stories/*"],
+      "@themes/*": ["./src/themes/*"]
     },
 
     /* Bundler mode */

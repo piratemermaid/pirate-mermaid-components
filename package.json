@@ -13,6 +13,11 @@
     "format-all": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css}\""
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@fontsource/material-icons": "^5.2.7",
+    "@fontsource/roboto": "^5.2.9",
+    "@mui/material": "^7.3.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
@@ -22,6 +27,7 @@
     "@storybook/addon-a11y": "^10.1.7",
     "@storybook/addon-docs": "^10.1.7",
     "@storybook/addon-onboarding": "^10.1.7",
+    "@storybook/addon-themes": "^10.1.7",
     "@storybook/addon-vitest": "^10.1.7",
     "@storybook/react-vite": "^10.1.7",
     "@types/node": "^24.10.1",
