@@ -1,5 +1,5 @@
-import { Button } from "@stories/examples";
-import "./header.css";
+import { Button } from '@stories/examples';
+import './header.css';
 
 type User = {
   name: string;
