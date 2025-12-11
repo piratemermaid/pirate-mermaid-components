@@ -7,7 +7,7 @@
 
 ## Development
 
-- Versions: node `22.15.0` and npm `10.9.2`
+- Versions: node `22.15.0` and npm `010.9.2`
 - Install dependencies: `npm install`
 - Run storybook: `npm run storybook`
 - Build storybook: `npm run build-storybook`
