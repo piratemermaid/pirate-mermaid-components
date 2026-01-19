@@ -8,7 +8,9 @@ export const Button = ({ shape = 'rounded', ...rest }: Props) => {
   return (
     <MuiButton
       {...rest}
-      sx={{ borderRadius: shape === 'rounded' ? '9999px' : '0px' }}
+      sx={{
+        textTransform: 'none',
+        borderRadius: shape === 'rounded' ? '9999px' : 'default' }}
     />
   );
 };
